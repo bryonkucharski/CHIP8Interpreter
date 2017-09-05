@@ -7,15 +7,15 @@ The origianl CHIP8 system is interpreted programming language (run on a CHIP8 vi
 
 CHIP8 has the follow specs:
 
-*4KB of RAM, from location 0x000 (0) to 0xFFF (4095)
-*16 8-bit data registers
-*Register I is 16 bits wide (used with memory operations)
-*A stack to store return addresses from subroutines
-*A delay timer for delays used in ROMs
-*A sound timer that outputs one tone when the timer is not zero 
-*A hex keypad
-*64×32 display resolution 
-*35 opcodes
+* 4KB of RAM, from location 0x000 (0) to 0xFFF (4095)
+* 16 8-bit data registers
+* Register I is 16 bits wide (used with memory operations)
+* A stack to store return addresses from subroutines
+* A delay timer for delays used in ROMs
+* A sound timer that outputs one tone when the timer is not zero 
+* A hex keypad
+* 64×32 display resolution 
+* 35 opcodes
 
 ## Motivation
 The motivation behind this project was to get an understanding of the basics of hardware emulation. Even though the CHIP8 is an interpreted computer language rather than physical hardware, it is common to create a CHIP8 "emulator" as a beginners project to emulation.
@@ -28,17 +28,17 @@ The original CHIP8 system used a hex keypad to control the system.
 
 An orignal hex keypad uses the following keys:
 
-1 2 3 C
-4 5 6 D
-7 8 9 D
-A 0 B F
+1 2 3 C <br /> 
+4 5 6 D <br /> 
+7 8 9 D <br /> 
+A 0 B F <br /> 
 
 This interpreter uses the following keys on a standard qwerty keyboard:
 
- 1 2 3 4
- q w e r           
- a s d f 
- z x c v
+ 1 2 3 4 <br /> 
+ q w e r <br />           
+ a s d f <br /> 
+ z x c v <br /> 
  
  Different ROMs use different keys to control the game. 
  
@@ -64,7 +64,7 @@ This project was developed in Visual Studio 2015 using the SFML libraries. The S
 
 ## References
 
-*https://en.wikipedia.org/wiki/CHIP-8#cite_note-memi-4
-*http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#0.0
-*http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
-*http://www.codeslinger.co.uk/pages/projects/chip8.html
+* https://en.wikipedia.org/wiki/CHIP-8#cite_note-memi-4
+* http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#0.0
+* http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
+* http://www.codeslinger.co.uk/pages/projects/chip8.html
