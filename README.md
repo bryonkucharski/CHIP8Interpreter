@@ -7,15 +7,15 @@ The origianl CHIP8 system is interpreted programming language (run on a CHIP8 vi
 
 CHIP8 has the follow specs:
 
--4KB of RAM, from location 0x000 (0) to 0xFFF (4095)
--16 8-bit data registers
--Register I is 16 bits wide (used with memory operations)
--A stack to store return addresses from subroutines
--A delay timer for delays used in ROMs
--A sound timer that outputs one tone when the timer is not zero 
--A hex keypad
--64×32 display resolution 
--35 opcodes
+*4KB of RAM, from location 0x000 (0) to 0xFFF (4095)
+*16 8-bit data registers
+*Register I is 16 bits wide (used with memory operations)
+*A stack to store return addresses from subroutines
+*A delay timer for delays used in ROMs
+*A sound timer that outputs one tone when the timer is not zero 
+*A hex keypad
+*64×32 display resolution 
+*35 opcodes
 
 ## Motivation
 The motivation behind this project was to get an understanding of the basics of hardware emulation. Even though the CHIP8 is an interpreted computer language rather than physical hardware, it is common to create a CHIP8 "emulator" as a beginners project to emulation.
@@ -47,18 +47,24 @@ This project was developed in Visual Studio 2015 using the SFML libraries. The S
  - http://www.sfml-dev.org/tutorials/2.4/start-vc.php
  
 ## Screenshots
-Blinky
-![Blinky](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Blinky.PNG)("Blinky")
+### Blinky
+![Blinky](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Blinky.PNG)
 
-Pong 
-![Pong](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Pong.PNG)("Pong")
+### Pong 
+![Pong](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Pong.PNG)
 
-Space Invaders
-![Space Invaders](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Space%20Invaders.PNG)("Space Invaders")
+### Space Invaders
+![Space Invaders](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Space%20Invaders.PNG)
 
-Tetris
-![Tetris](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Tetris.PNG)("Tetris")
+### Tetris
+![Tetris](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/Tetris.PNG)
 
-Wipeoff
-![Wipeoff](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/WIPEOFF.PNG)("Wipeoff")
+### Wipeoff
+![Wipeoff](https://github.com/bryonkucharski/CHIP8Interpreter/blob/master/CHIP8/pictures/WIPEOFF.PNG)
+
 ## References
+
+*https://en.wikipedia.org/wiki/CHIP-8#cite_note-memi-4
+*http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#0.0
+*http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
+*http://www.codeslinger.co.uk/pages/projects/chip8.html
